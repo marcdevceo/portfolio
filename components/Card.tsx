@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ image, content, href, alt }) => {
   return (
-    <div className='flex flex-col items-center rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden p-14 sm:p-5 w-80 mb-5'>
+    <div className='flex flex-col items-center justify-between rounded-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] overflow-hidden p-14 sm:p-5 w-80 mb-5'>
         <div>
             <Link href={href}>
                 <Image

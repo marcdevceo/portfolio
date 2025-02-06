@@ -2,7 +2,9 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <main className='min-h-screen text-center m-10'>
+      Resume
+    </main>
   )
 }
 

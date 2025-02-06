@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <main>
       <h1 className="text-2xl md:text-5xl font-bold text-center my-20">My Projects</h1>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center gap-5">
         {projectsData.map((project, index) => (
           <Card
             key={index}
